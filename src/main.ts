@@ -9,4 +9,5 @@ if (environment.production) {
   enableProdMode();
 }
 
+// platformBrowserDynamic().bootstrapModule(AppModule, {preserveWhitespaces: true}); // a nivel de aplicacao
 platformBrowserDynamic().bootstrapModule(AppModule);

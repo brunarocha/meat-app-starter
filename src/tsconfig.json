@@ -18,6 +18,10 @@
       "../node_modules/@types"
     ]
   },
+  // preservar espacos em branco ao rodar o BUILD
+  "angularCompilerOptions": {
+    "preserveWhitespaces": false
+  },
   "exclude": [
     "test.ts",
     "**/*.spec.ts"
